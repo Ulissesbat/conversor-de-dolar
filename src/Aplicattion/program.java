@@ -21,6 +21,7 @@ public class program {
 		double result = CurrencyConverter.value(price, quantity);
 		
 		System.out.printf("Amount to be paid in reais = " + String.format("%.2f",result));
+		System.out.println("Considerando imposto IOF = 6.0;");
 		
 		sc.close();
 
