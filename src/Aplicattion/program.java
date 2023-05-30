@@ -13,15 +13,15 @@ public class program {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("What is the dollar price?");
+		System.out.print("What is the dollar price? ");
 		double price = sc.nextDouble();
-		System.out.println("How many dollars will be bought?");
+		System.out.print("How many dollars will be bought? ");
 		double quantity = sc.nextDouble();
 		
 		double result = CurrencyConverter.value(price, quantity);
 		
-		System.out.printf("Amount to be paid in reais = " + String.format("%.2f",result));
-		System.out.println("Considerando imposto IOF = 6.0;");
+		System.out.printf("Amount to be paid in reais = " + String.format("%.2f \n",result));
+		System.out.println("Considering IOF tax = 6.0");
 		
 		sc.close();
 
