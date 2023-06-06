@@ -2,7 +2,7 @@ package util;
 
 public class CurrencyConverter {
 	
-	public static double IOF = 6.0;
+	public static double IOF = 1.1;
 	
 	public static double value(double price, double quantity) {
 		
