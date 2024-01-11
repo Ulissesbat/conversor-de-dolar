@@ -13,13 +13,13 @@ public class program {
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.println("which currency do you want to calculate? ");
-		System.out.println("1: American dollar");
-		System.out.println("2: Euro");
-		System.out.println("3: Pound sterling");
-		System.out.println("4: Australian Dollar");
-		System.out.println("5: yen");
-		System.out.println("6: swiss franc");
-		System.out.println("7: Canadian dollar");
+		System.out.println("1: American dollar ");
+		System.out.println("2: Euro ");
+		System.out.println("3: Pound sterling ");
+		System.out.println("4: Australian Dollar ");
+		System.out.println("5: yen ");
+		System.out.println("6: swiss franc ");
+		System.out.println("7: Canadian dollar ");
 		
 		int option = sc.nextInt();
 		double price, quantity;
